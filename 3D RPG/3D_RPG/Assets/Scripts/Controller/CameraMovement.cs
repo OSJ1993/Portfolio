@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
     private float rotX;
     private float rotY;
 
-
+    Vector3 moverot;
 
 
     //카메라 정보,

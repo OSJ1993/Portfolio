@@ -7,14 +7,16 @@ public class PlayerMovement : MonoBehaviour
     Animator _animator;
     Camera _camera;
     CharacterController _controller;
-    
 
-    
+
+
 
     //플레이어 속도. 
     public float speed = 5f;
     public float runSpeed = 8f;
-    
+
+
+
     //최종 결정 스피드.
     public float finalSpeed;
 
@@ -33,7 +35,10 @@ public class PlayerMovement : MonoBehaviour
         _animator = this.GetComponent<Animator>();
         _camera = Camera.main;
         _controller = this.GetComponent<CharacterController>();
-        
+
+
+
+
     }
 
 
@@ -61,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         InputMoveMent();
+        Zoom();
     }
 
     private void LateUpdate()
@@ -74,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
 
     void InputMoveMent()
     {
-        
+
 
 
         finalSpeed = (run) ? runSpeed : speed;
@@ -85,14 +91,23 @@ public class PlayerMovement : MonoBehaviour
         //최종적으로 움직일 방향.
         Vector3 moveDireation = forward * Input.GetAxisRaw("Vertical") + right * Input.GetAxisRaw("Horizontal");
 
-        _controller.GetComponent<Animator>().GetBool("Walk");
+        if (moveDireation != Vector3.zero)
+        {
+            _controller.GetComponent<Animator>().SetBool("Walk", true);
+        }
+        if (moveDireation == Vector3.zero)
+        {
+            _controller.GetComponent<Animator>().SetBool("Walk", false);
+        }
+
 
         _controller.Move(moveDireation.normalized * finalSpeed * Time.deltaTime);
 
         float percent = ((run) ? 1 : 0.5f) * moveDireation.magnitude;
-        
-    }
 
+
+
+    }
     public void Zoom()
     {
         var scroll = Input.mouseScrollDelta;
