@@ -33,7 +33,29 @@ public class PlayerAnim : MonoBehaviour
         else
         {
             _anim.SetBool("isBackward", false);
-         }
+        }
+
+        bool isRunRight = Input.GetKey(KeyCode.D);
+        _anim.SetBool("isRunRight", isRunRight);
+        if (isRunRight)
+        {
+            _anim.SetBool("isRunRight", true);
+        }
+        else
+        {
+            _anim.SetBool("isRunRight", false);
+        } 
+        bool isRunLeft = Input.GetKey(KeyCode.A);
+        _anim.SetBool("isRunLeft", isRunLeft);
+        if (isRunLeft)
+        {
+            _anim.SetBool("isRunLeft", true);
+        }
+        else
+        {
+            _anim.SetBool("isRunLeft", false);
+        }
+
 
     }
 }

@@ -40,10 +40,12 @@ public class CameraMovement : MonoBehaviour
     public float smoothness=10f;
 
     void Start()
-    {
+    {  
+        // 마우스 회전값 x , y
         rotX = transform.localRotation.eulerAngles.x;
         rotY = transform.localRotation.eulerAngles.y;
 
+        
         dirNormalized = realCamera.localPosition.normalized;
         finalDistance = realCamera.localPosition.magnitude;
 
@@ -55,7 +57,7 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-         
+         // 마우스 회전  Y X 민감도 
         rotX += -(Input.GetAxis("Mouse Y")) * sensitivity * Time.deltaTime;
         rotY += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         //rotZ += -(Input.GetAxis("Mouse Z")) * sensitivity * Time.deltaTime;
@@ -63,7 +65,7 @@ public class CameraMovement : MonoBehaviour
         //최소값, 최대값
         rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
         
-
+        // 쿼터니언 회전값
         Quaternion rot = Quaternion.Euler(rotX, rotY, 0);
         transform.rotation = rot;
     }

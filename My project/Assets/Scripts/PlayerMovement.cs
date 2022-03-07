@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Animator _anim;
     Camera _camera;
     Rigidbody _rigid;
     //지정할 플레이어
@@ -22,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        _anim = this.GetComponent<Animator>();
         _camera = Camera.main;
         _rigid = this.GetComponent<Rigidbody>();
     }
@@ -58,6 +56,12 @@ public class PlayerMovement : MonoBehaviour
             Vector3 playerRotate = Vector3.Scale(_camera.transform.forward, new Vector3(1, 0, 1));
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(playerRotate), Time.deltaTime * smoothness);
         }
+    }
+    public void Die()
+    {
+        gameObject.SetActive(false);
+        GameManager gameManager = FindObjectOfType<GameManager>();
+        gameManager.EndGame();
     }
     
 
