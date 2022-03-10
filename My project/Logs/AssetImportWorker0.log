@@ -5,14 +5,20 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 
 COMMAND LINE ARGUMENTS:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 <<<<<<< Updated upstream
 C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
 =======
 D:\Unity\2020.3.24f1\Editor\Unity.exe
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 -adb2
 -batchMode
 -noUpm
@@ -20,9 +26,13 @@ C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
 AssetImportWorker0
 -projectPath
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 D:/Unity/Github/Portfolio/My project
 -logFile
 Logs/AssetImportWorker0.log
@@ -41,6 +51,9 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 D:/Unity/github/Portfolio/My project
 -logFile
@@ -60,16 +73,23 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1b84)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
     Vendor:   
     VRAM:     2988 MB
     Driver:   27.21.14.5671
 Initialize mono
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
@@ -89,6 +109,9 @@ Domain Reload Profiling:
 	ReloadAssembly (630ms)
 		BeginReloadAssembly (60ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 Mono path[0] = 'D:/Unity/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
@@ -109,17 +132,24 @@ Domain Reload Profiling:
 	ReloadAssembly (587ms)
 		BeginReloadAssembly (53ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 		EndReloadAssembly (491ms)
 			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -135,6 +165,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (82ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 		EndReloadAssembly (462ms)
 			LoadAssemblies (52ms)
@@ -151,8 +184,11 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (80ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -160,9 +196,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 Registered in 0.003575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -1039,6 +1079,9 @@ Domain Reload Profiling:
 	ReloadAssembly (1055ms)
 		BeginReloadAssembly (127ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 Registered in 0.003462 seconds.
 Begin MonoManager ReloadAssembly
@@ -1052,16 +1095,23 @@ Domain Reload Profiling:
 	ReloadAssembly (1031ms)
 		BeginReloadAssembly (149ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 			CreateAndSetChildDomain (33ms)
 		EndReloadAssembly (843ms)
 			LoadAssemblies (101ms)
@@ -1070,6 +1120,9 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (39ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 			CreateAndSetChildDomain (18ms)
 		EndReloadAssembly (824ms)
@@ -1079,38 +1132,55 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (46ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 				BeforeProcessingInitializeOnLoad (74ms)
 				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (7ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 				BeforeProcessingInitializeOnLoad (77ms)
 				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (4ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
@@ -1120,6 +1190,9 @@ System memory in use after: 75.3 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1980.
 Total: 2.630300 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.381200 ms  DeleteObjects: 0.016500 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 ========================================================================
 Worker process is ready to serve import requests
@@ -1133,8 +1206,11 @@ System memory in use after: 72.6 MB.
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1946.
 Total: 2.675000 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.360400 ms  DeleteObjects: 0.093600 ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1149,9 +1225,13 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
   Time since last request: 1969.002887 seconds.
   path: Assets/Cube.prefab
   artifactKey: Guid(d1de39f62084f564e892eb52708e50bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1271,6 +1351,9 @@ Received Import Request.
 Start importing Assets/Cube.prefab using Guid(d1de39f62084f564e892eb52708e50bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59710e7ff38bc165a803ffe03ac39f09') in 0.058634 seconds 
   Import took 0.061543 seconds .
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
   path: Assets/Prefabs
   artifactKey: Guid(d4abe90369aa84742941e0aa581d7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1293,16 +1376,23 @@ Received Import Request.
 Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Characters/Ninja.FBX using Guid(24bdb7cc7a8d8a745a84df6c531bc19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677f9a8f525d81b133105fe9f0449547') in 0.205452 seconds 
   Import took 0.208387 seconds .
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 Registered in 0.003620 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -1335,6 +1425,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (7ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 Registered in 0.003436 seconds.
 Begin MonoManager ReloadAssembly
@@ -1368,16 +1461,23 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (3ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
@@ -1387,6 +1487,9 @@ System memory in use after: 89.0 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1987.
 Total: 2.579000 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.346300 ms  DeleteObjects: 0.020500 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1397,8 +1500,11 @@ System memory in use after: 89.3 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1959.
 Total: 2.528200 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.296600 ms  DeleteObjects: 0.022800 ms)
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1413,9 +1519,13 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+<<<<<<< Updated upstream
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
   Time since last request: 165.954601 seconds.
   path: Assets/Scripts/Monster.cs
   artifactKey: Guid(3115ec062690ccf4e961f1d3162ddef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1480,6 +1590,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 =======
   Time since last request: 872.452186 seconds.
   path: Assets/Zombie
@@ -1488,6 +1601,9 @@ Start importing Assets/Zombie using Guid(d3626f3bf271172479174c282c38dda3) Impor
   Import took 0.011392 seconds .
 
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b8550569 (change nav)
+=======
+>>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
