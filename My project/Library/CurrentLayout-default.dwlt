@@ -21,6 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 492}
@@ -34,6 +35,11 @@ MonoBehaviour:
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
 >>>>>>> parent of fc240d89 (nav)
+=======
+  m_Title: Project
+  m_RootView: {fileID: 11}
+  m_MinSize: {x: 875, y: 646}
+>>>>>>> parent of b8550569 (change nav)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -55,6 +61,7 @@ MonoBehaviour:
     x: 1104
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 308
     height: 518
   m_MinSize: {x: 200, y: 200}
@@ -69,6 +76,10 @@ MonoBehaviour:
     width: 502
     height: 518
 >>>>>>> parent of fc240d89 (nav)
+=======
+    width: 477
+    height: 461
+>>>>>>> parent of b8550569 (change nav)
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 19}
@@ -97,6 +108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 0
     width: 1412
     height: 518
@@ -105,6 +117,8 @@ MonoBehaviour:
   vertical: 0
   controlID: 155
 =======
+=======
+>>>>>>> parent of b8550569 (change nav)
     y: 486
     width: 982
     height: 461
@@ -112,6 +126,9 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
   controlID: 143
+<<<<<<< HEAD
+>>>>>>> parent of b8550569 (change nav)
+=======
 >>>>>>> parent of b8550569 (change nav)
 --- !u!114 &4
 MonoBehaviour:
@@ -134,6 +151,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1109
     y: 0
     width: 303
@@ -144,6 +162,10 @@ MonoBehaviour:
 =======
     x: 319
     y: 0
+=======
+    x: 319
+    y: 0
+>>>>>>> parent of b8550569 (change nav)
     width: 663
     height: 486
   m_MinSize: {x: 276, y: 71}
@@ -193,6 +215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 518
     width: 1412
     height: 429
@@ -209,6 +232,15 @@ MonoBehaviour:
   vertical: 0
   controlID: 180
 <<<<<<< HEAD
+>>>>>>> parent of b8550569 (change nav)
+=======
+    y: 0
+    width: 982
+    height: 486
+  m_MinSize: {x: 478, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 180
 >>>>>>> parent of b8550569 (change nav)
 --- !u!114 &6
 =======
@@ -233,6 +265,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 0
     width: 1920
@@ -254,6 +287,15 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    x: 477
+    y: 0
+    width: 505
+    height: 461
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 24}
+>>>>>>> parent of b8550569 (change nav)
   m_Panes:
   - {fileID: 16}
   m_Selected: 0
@@ -297,6 +339,7 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
   controlID: 179
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
   m_Children:
@@ -341,6 +384,8 @@ MonoBehaviour:
   m_UseBottomView: 1
   m_BottomViewHeight: 20
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,6 +411,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 30
     width: 1920
     height: 947
@@ -374,6 +420,8 @@ MonoBehaviour:
   vertical: 0
   controlID: 254
 =======
+=======
+>>>>>>> parent of b8550569 (change nav)
     y: 519
     width: 938
     height: 428
@@ -426,6 +474,7 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
 =======
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 911, y: 492}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
@@ -435,6 +484,12 @@ MonoBehaviour:
 =======
   controlID: 178
 >>>>>>> parent of fc240d89 (nav)
+=======
+  m_MinSize: {x: 934, y: 596}
+  m_MaxSize: {x: 18003, y: 14042}
+  vertical: 0
+  controlID: 121
+>>>>>>> parent of b8550569 (change nav)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,6 +515,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1412
     height: 947
   m_MinSize: {x: 403, y: 442}
@@ -467,6 +523,8 @@ MonoBehaviour:
   vertical: 1
   controlID: 255
 =======
+=======
+>>>>>>> parent of b8550569 (change nav)
     width: 319
     height: 486
   m_MinSize: {x: 202, y: 221}
@@ -648,9 +706,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
   controlID: 122
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -668,12 +729,15 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: AssetStoreWindow
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
   m_EditorHideFlags: 0
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -797,12 +861,15 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 2
   m_LastSelected: 0
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -856,6 +923,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1104
     y: 73
     width: 306
@@ -872,6 +940,12 @@ MonoBehaviour:
     width: 243
     height: 497
 >>>>>>> parent of fc240d89 (nav)
+=======
+    x: 1257
+    y: 73
+    width: 662
+    height: 465
+>>>>>>> parent of b8550569 (change nav)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -934,9 +1008,12 @@ MonoBehaviour:
     x: 1644
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 275
     height: 926
 =======
+=======
+>>>>>>> parent of b8550569 (change nav)
     width: 758
     height: 498
 >>>>>>> parent of b8550569 (change nav)
@@ -994,6 +1071,7 @@ MonoBehaviour:
     y: 559
     width: 475
     height: 440
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
     x: 944
@@ -1001,6 +1079,8 @@ MonoBehaviour:
     width: 500
     height: 497
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1017,6 +1097,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Scripts
@@ -1024,6 +1105,9 @@ MonoBehaviour:
 =======
     - Assets
 >>>>>>> parent of fc240d89 (nav)
+=======
+    - Assets/Scripts
+>>>>>>> parent of b8550569 (change nav)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
@@ -1031,10 +1115,13 @@ MonoBehaviour:
   m_LastFolders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\github\Portfolio\My project
 =======
+=======
+>>>>>>> parent of b8550569 (change nav)
   - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\Github\Portfolio\My project
@@ -1050,6 +1137,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 28480000
     m_LastClickedID: 18472
     m_ExpandedIDs: 00000000184800001a4800001c4800001e480000204800002248000024480000264800002848000000ca9a3b
@@ -1063,20 +1151,25 @@ MonoBehaviour:
     m_LastClickedID: 21268
     m_ExpandedIDs: 00000000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a5300000c5300001453000000ca9a3b
 >>>>>>> parent of fc240d89 (nav)
+=======
+    m_SelectedIDs: e4470000
+    m_LastClickedID: 18404
+    m_ExpandedIDs: 00000000aa470000ac470000ae470000b0470000b2470000b4470000b6470000b8470000bc470000be470000c0470000c2470000c4470000c647000000ca9a3b
+>>>>>>> parent of b8550569 (change nav)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Animation
+      m_OriginalName: Animation
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 18378
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
       m_ClientGUIView: {fileID: 11}
@@ -1096,6 +1189,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000184800001a4800001c4800001e480000204800002248000024480000264800002848000000ca9a3b
 =======
     m_ExpandedIDs: 00000000aa470000ac470000ae470000b0470000b2470000b4470000b6470000b8470000ba470000bc470000be470000c0470000c2470000c4470000c6470000
@@ -1103,6 +1197,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000f2520000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000006530000085300000a5300000c530000
 >>>>>>> parent of fc240d89 (nav)
+=======
+    m_ExpandedIDs: 00000000aa470000ac470000ae470000b0470000b2470000b4470000b6470000b8470000ba470000bc470000be470000c0470000c2470000c4470000c6470000
+>>>>>>> parent of b8550569 (change nav)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1131,6 +1228,7 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
 =======
@@ -1141,6 +1239,10 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
 >>>>>>> parent of fc240d89 (nav)
+=======
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> parent of b8550569 (change nav)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1169,6 +1271,7 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 110
 =======
   m_DirectoriesAreaWidth: 205
@@ -1176,6 +1279,9 @@ MonoBehaviour:
 =======
   m_DirectoriesAreaWidth: 178
 >>>>>>> parent of fc240d89 (nav)
+=======
+  m_DirectoriesAreaWidth: 205
+>>>>>>> parent of b8550569 (change nav)
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1450,11 +1556,14 @@ MonoBehaviour:
 =======
     width: 937
     height: 498
+<<<<<<< HEAD
 >>>>>>> parent of b8550569 (change nav)
 =======
     width: 698
     height: 497
 >>>>>>> parent of fc240d89 (nav)
+=======
+>>>>>>> parent of b8550569 (change nav)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 37e5f19490831e74d905468603865ae5
@@ -1467,6 +1576,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -4.186633, y: 8.21399, z: 1.9522238}
@@ -1482,6 +1592,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -34.0649, y: 17.578339, z: 123.61763}
 >>>>>>> parent of fc240d89 (nav)
+=======
+    m_Target: {x: -2.4657497, y: -6.706992, z: 3.5827627}
+    speed: 2
+    m_Value: {x: -2.4657497, y: -6.706992, z: 3.5827627}
+>>>>>>> parent of b8550569 (change nav)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1530,6 +1645,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.23487122, y: 0.40236536, z: -0.107602485, w: -0.8782722}
     speed: 2
     m_Value: {x: -0.23487091, y: 0.40236482, z: -0.10760234, w: -0.87827104}
@@ -1553,6 +1669,15 @@ MonoBehaviour:
 =======
     m_Value: 11.804932
 >>>>>>> parent of fc240d89 (nav)
+=======
+    m_Target: {x: -0.39209533, y: 0.059819702, z: -0.025560483, w: -0.9176291}
+    speed: 2
+    m_Value: {x: -0.39209267, y: 0.059819296, z: -0.02556031, w: -0.91762286}
+  m_Size:
+    m_Target: 8.562499
+    speed: 2
+    m_Value: 8.562499
+>>>>>>> parent of b8550569 (change nav)
   m_Ortho:
     m_Target: 0
     speed: 2

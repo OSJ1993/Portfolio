@@ -106,15 +106,24 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
+<<<<<<< HEAD
     agentRadius: 0.5
     agentHeight: 2
+=======
+    agentRadius: 0.1
+    agentHeight: 10
+>>>>>>> parent of b8550569 (change nav)
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
+<<<<<<< HEAD
     cellSize: 0.16666667
+=======
+    cellSize: 0.033333335
+>>>>>>> parent of b8550569 (change nav)
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -919,6 +928,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126542303}
   m_Mesh: {fileID: 4300002, guid: 22d0bef4cc44b0e448f77eabf8418ed5, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1 &134252259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134252260}
+  - component: {fileID: 134252261}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134252260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134252259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.51, z: 12.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134252261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134252259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b871b4dd73312b4da45e07ffef61a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monster: {fileID: 4752459282262307877, guid: d1de39f62084f564e892eb52708e50bd, type: 3}
+  instance: {fileID: 0}
+  xPos: 0
+  zPos: 0
+>>>>>>> parent of b8550569 (change nav)
 --- !u!1 &141790247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 148384, guid: d88046430d0ae344b86ab8454d6e0f33, type: 3}
