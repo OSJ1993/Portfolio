@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
 <<<<<<< Updated upstream
@@ -13,6 +14,9 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data', plugins 
 >>>>>>> parent of b8550569 (change nav)
 =======
 >>>>>>> 5d812e44539f69ef88afd4ca1342b01becece3ba
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines'
+>>>>>>> parent of b8550569 (change nav)
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
