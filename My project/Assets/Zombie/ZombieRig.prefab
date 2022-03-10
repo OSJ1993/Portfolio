@@ -1868,7 +1868,6 @@ GameObject:
   m_Component:
   - component: {fileID: 474340}
   - component: {fileID: 9535714}
-  - component: {fileID: -599779180632915707}
   m_Layer: 0
   m_Name: ZombieRig
   m_TagString: Untagged
@@ -1885,7 +1884,7 @@ Transform:
   m_GameObject: {fileID: 162410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.6, y: 5.313058, z: 8.3}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 474474}
   - {fileID: 421262}
@@ -1911,20 +1910,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!136 &-599779180632915707
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162410}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &162700
 GameObject:
   m_ObjectHideFlags: 0

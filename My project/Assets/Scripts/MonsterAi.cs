@@ -7,7 +7,7 @@ public class MonsterAi : MonoBehaviour
 {
     NavMeshAgent nav;
     public GameObject target;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class MonsterAi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(nav.destination != target.transform.position)
+        if (nav.destination != target.transform.position)
         {
             nav.SetDestination(target.transform.position);
         }
