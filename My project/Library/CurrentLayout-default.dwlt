@@ -19,9 +19,15 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 392}
+=======
+  m_Title: Inspector
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +49,13 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 461
+<<<<<<< HEAD
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -74,7 +85,11 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 86
+=======
+  controlID: 129
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +169,11 @@ MonoBehaviour:
   m_MinSize: {x: 1013, y: 342}
   m_MaxSize: {x: 26008, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 126
+=======
+  controlID: 55
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -200,7 +219,11 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 127
+=======
+  controlID: 128
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,8 +243,13 @@ MonoBehaviour:
     y: 0
     width: 211
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -272,8 +300,13 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -325,8 +358,13 @@ MonoBehaviour:
     y: 0
     width: 801
     height: 461
+<<<<<<< HEAD
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -446,9 +484,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: f63e0000
       m_LastClickedID: 16118
       m_ExpandedIDs: 52fbffff76400000
+=======
+      m_SelectedIDs: 2a490000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52fbffff943d000076400000
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -547,22 +591,28 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\github\Portfolio\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 92490000
     m_LastClickedID: 18834
     m_ExpandedIDs: 00000000684900006a4900006c4900006e49000070490000724900007449000076490000784900007a4900007c4900007e4900008049000000ca9a3b
+=======
+    m_SelectedIDs: 88490000
+    m_LastClickedID: 18824
+    m_ExpandedIDs: 00000000684900006a4900006c4900006e49000070490000724900007449000076490000784900007a4900007c4900007e49000000ca9a3bffffff7f
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,18 +671,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: e66f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Animation
+      m_OriginalName: Animation
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 18820
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -645,7 +695,11 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 110
+=======
+  m_DirectoriesAreaWidth: 177
+>>>>>>> 5ab6b6d10ba06a0b45bfaf3215fe29ae4f9264e7
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
