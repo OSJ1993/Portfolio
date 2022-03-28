@@ -5,7 +5,12 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
+<<<<<<< HEAD
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+=======
   m_PrefabInternal: {fileID: 0}
+>>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
   m_Name: SampleMat
   m_Shader: {fileID: 4800000, guid: 8e98442a4727c184592a10fcbc6a22c0, type: 3}
   m_ShaderKeywords: 
@@ -68,15 +73,28 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+<<<<<<< HEAD
+    - _RimLightMul: 0.84
+    - _RimLightPow: 0.3
+=======
     - _RimLightMul: 1.86
     - _RimLightPow: 0.16
+>>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+<<<<<<< HEAD
+    - _Color: {r: 0, g: 0.46609807, b: 1, a: 0.6117647}
+    - _Color1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+=======
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _Color1: {r: 0, g: 0, b: 0, a: 1}
     - _Color2: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036

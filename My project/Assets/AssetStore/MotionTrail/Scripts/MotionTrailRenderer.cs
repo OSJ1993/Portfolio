@@ -39,6 +39,10 @@ public class MotionTrailRenderer : MonoBehaviour {
         }
 
         //this.GetComponent<MeshRenderer>().enabled = false;
+<<<<<<< HEAD
+        
+=======
+>>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
         this.gameObject.SetActive(false);
     }
 }
