@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MotionTrail : MonoBehaviour {
-    
+public class MotionTrail : MonoBehaviour
+{
+
     [Header("타겟 스킨메쉬")]
     public GameObject TargetSkinMesh;
 
@@ -12,7 +13,7 @@ public class MotionTrail : MonoBehaviour {
     public float ExportSpeedDelay = 0.1f;
 
     [Header("이펙트 출력시간. 체크할 경우 EffectLifeTime(초)동안 이펙트를 출력합니다. 체크 해제시 영구적으로 출력합니다.")]
-    public bool UseLifeTime = false; 
+    public bool UseLifeTime = false;
     public float EffectLifeTime = 3;
 
     [Header("------------------------------------------------------------------------------------------------------------------------------------------------------")]
@@ -32,23 +33,23 @@ public class MotionTrail : MonoBehaviour {
     {
         if (TargetSkinMesh == null)
         {
-            #if UNITY_EDITOR
+#if UNITY_EDITOR
             Debug.Log("<color=red>" + "타겟 스킨메쉬가 없습니다." + "</color>", this);
-            #endif
+#endif
         }
         if (ValueName == "")
         {
-            #if UNITY_EDITOR
+#if UNITY_EDITOR
             Debug.Log("<color=red>" + "변경할 쉐이더 변수이름이 존재하지 않습니다." + "</color>", this);
-            #endif
+#endif
         }
-        
-        if(TargetSkinMesh != null && ValueName != "")
+
+        if (TargetSkinMesh != null && ValueName != "")
         {
             StopAllCoroutines();
             StartCoroutine("GhostStart");
 
-            if(UseLifeTime == true)
+            if (UseLifeTime == true)
             {
                 StartCoroutine("TimerStart");
             }
@@ -75,14 +76,9 @@ public class MotionTrail : MonoBehaviour {
                 if (NeedObject == true) //모션을 생성하고 성공 했는지의 여부를 받아옵니다. true일 경우 생성이 된 것입니다.
                 {
                     //Debug.Log("모션 생성 성공");
-<<<<<<< HEAD
+                    break;
                     
-                    break;
-                }              
-=======
-                    break;
                 }
->>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
             }
             //if(NeedObject == false)
             //{
@@ -103,8 +99,8 @@ public class MotionTrail : MonoBehaviour {
 
     public bool CreateTrailMotion(int ArrayNum)
     {
-       if(ArrayNum < transform.childCount)
-       {
+        if (ArrayNum < transform.childCount)
+        {
             //Debug.Log("갯수가 충분합니다.");
             if (transform.GetChild(ArrayNum).gameObject.activeSelf == false) //오브젝트가 비활성화 되어 있음 (사용가능)
             {
@@ -116,42 +112,25 @@ public class MotionTrail : MonoBehaviour {
                 transform.GetChild(ArrayNum).gameObject.GetComponent<MotionTrailRenderer>().ValueTimeDelay = ValueTimeDelay;
                 transform.GetChild(ArrayNum).gameObject.GetComponent<MotionTrailRenderer>().ValueDetail = ValueDetail;
                 transform.GetChild(ArrayNum).gameObject.SetActive(true);
-<<<<<<< HEAD
-                
-=======
->>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
                 return true; //모션 생성에 성공했습니다.
             }
             else //활성화 되어 있는 경우 false를 반환합니다.
             {
                 //Debug.Log("<color=red>" + "해당 오브젝트가 활성화 되어 있습니다." + "</color>");
-                if(transform.childCount == ArrayNum + 1)
+                if (transform.childCount == ArrayNum + 1)
                 {
-<<<<<<< HEAD
-                StopAllCoroutines();
-                //    //Debug.Log("<color=red>" + "모션생성(갯수부족1)" + "</color>");
-                // transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
-                }
-                return false;
-                //Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
-=======
                     //Debug.Log("<color=red>" + "모션생성(갯수부족1)" + "</color>");
                     Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
                 }
                 //Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
                 return false;
->>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
             }
-       }
-       else //갯수 부족
-       {
-           //Debug.Log("<color=red>" + "모션생성(갯수부족2)" + "</color>");
-<<<<<<< HEAD
-           //Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
-=======
-           Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
->>>>>>> 45b39478b8302cd8fdf5c9739cb4e5bf35031036
-           return false;
-       }
+        }
+        else //갯수 부족
+        {
+            //Debug.Log("<color=red>" + "모션생성(갯수부족2)" + "</color>");
+            //Instantiate(transform.GetChild(0), this.transform); //새로운 모션을 생성합니다.
+            return false;
+        }
     }
 }
